@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Plant Screen</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- gives browser instructions on how to control
+	page dimensions and scaling -->
+	
+
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="/css/newCSS.css" rel="stylesheet">
+</head>
+<body>
+	<div class = "container">
+		<h2><i class="arrow leftArrow" onclick="history.back(-1)"></i>Shared Plant</h2>
+		<hr size="30">
+	
+	<div class = "plantContainer">
+	<h1>{{friendName}}</h1>
+
+	<div class = "pot" style="width:100%">
+		<img class="sharedSize" src = "/images/seed.png">
+		
+		<div class = "row">
+			<div class = "col-md-6 col-sm-6 col-xs-6">
+				<h4>{{friendName}}:</h4>
+				<h5>{{friendScore}}/8</h5>
+			</div>
+			<div class = "col-md-6 col-sm-6 col-xs-6">
+				<h4>You:</h4>
+				<h5>{{userScore}}/8</h5>
+			</div>
+		</div>
+		 <a href="/archive"><button  class="btn btn-default">Past Plants</button></a>
+	</div>
+
+	  <nav class="borderingNav navbar navbar-default navbar-fixed-bottom" style="background: #D5DFB9">
+      <div class = "row">
+        
+          <a href="/sip"><button type="button" class="thatPadding btn navbar-btn button1 col-md-6 col-sm-6 col-xs-6">Sip</button></a>
+          <a href="/friends"><button type="button" class="thatPadding btn navbar-btn button1 col-md-6 col-sm-6 col-xs-6">Friends</button></a>
+  </nav>
+
+
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+	<script src= "js/bootstrap.js"></script>
+	<script src="data.json"></script>
+
+</body>
+</html>

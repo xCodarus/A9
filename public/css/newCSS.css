@@ -1,0 +1,252 @@
+/*.container {
+  text-align: center;
+  border: 3px solid green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 100%;
+}*/
+
+.header {
+  text-align: center;
+  border: 3px solid green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+i {
+  border: solid black; 
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px 10px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  
+}
+ 
+.leftArrow {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  top: 3px;
+  right: 140px;
+}
+
+hr {
+  display: block;
+  margin-top: 1.1em;
+  margin-bottom: 2.5em;
+  margin-left: block;
+  margin-right: block;
+  border-style: inset;
+  border-width: 2px;
+  border: solid black; 
+}
+.pot {
+  width: 35%;
+}
+
+.cup {
+  width: 35%;
+  margin-bottom: 4em;
+}
+
+img {
+  margin-top: 3em;
+  height: 45%;
+  width: 35%;
+  /*
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1); 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  */
+}
+
+.btn-group button {
+  background-color: white; /* Green background */
+  border: 2px solid #e7e7e7 /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #008CBA;
+}
+
+
+.inLine {
+  margin-top: -20px;
+  padding-bottom: 15px;
+  overflow: auto;
+  clear: left;
+}
+.right {
+  margin-left: 250px;
+}
+
+.left {
+  margin-right: 250px;
+  margin-top: -55px;
+	
+}
+
+.friend {
+  margin: none;
+  border: 1px solid #000000;
+}
+
+.friendBorder {
+  margin: none;
+  border: 1px solid #000000;
+  padding: 80px;
+}
+
+.friend-list {
+  overflow-y: scroll;
+  height: 75%;
+  width: 100%;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+.sipButtonPad {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.moveTextUp {
+  margin-top: -80px;
+}
+
+.moveBottleUp {
+  width: auto;
+  height: 75%;
+  display: inline-block;
+  margin-bottom: -30px;
+}
+
+.paddingThatArrow {
+  margin-right: 70px;
+}
+
+.borderingNav {
+  border-color: white;
+  border-width: 2px;
+}
+
+.thatPadding {
+  padding: 20px;
+}
+
+.friendBorder {
+  margin: none;
+  border: 1px solid #000000;
+  padding: 80px;
+}
+
+.friend-list {
+  height: 100%;
+  width: 100%;
+}
+
+.pot {
+  margin-top: 0px;
+  height: 80%;
+}
+
+.friendContainer {
+  text-align: center;
+  display: vertical;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 0%;
+  transition-duration: 0.4s;
+}
+
+.friendContainer h3:hover {
+  border: 5px solid #edf4fa;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  border-radius: 25px;
+
+
+}
+
+.friendBorder {
+ text-align: center;
+ display: block;
+ margin-bottom: 30px;
+ border: solid #D5DFB9;
+ padding: -50px;
+
+}
+
+.plantContainer {
+ text-align: center;
+  display: vertical;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 70%;
+  transition-duration: 0.4s;
+
+}
+
+.plantSize {
+height: auto;
+width: 100%
+}
+
+.bottleStaySame {
+  max-width: 50%;  
+}
+
+
+.sharedSize {
+display: inline-block;
+}
+
+
+.shelf {
+  position: relative;
+  vertical-align: middle;
+  padding-bottom: 40px;
+  padding-top: 30px;
+
+}
+
+.prize {
+  position: absolute;
+  left: 35;
+  top: -140;
+  width: 90px;
+}
+
+body{
+    overflow-x:hidden;
+}
